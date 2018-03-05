@@ -1,0 +1,14 @@
+package com.bounded.buffer;
+public class HelloWorld {
+ 
+ public void printIt() {
+     System.out.println( "HelloWorld - Java Dynamic Class Creation written by Rajib. More are to come...\n");
+     printSomethingElse("this is wonderful"); 
+ }
+ 
+ public void printSomethingElse(String st) {
+     	System.out.println( "Here's something more to it. ");     
+     	System.out.println(st); 
+ }
+
+}

@@ -1,0 +1,34 @@
+package com.repl;
+public class DefaultClass {
+	
+
+  public String printIt() {
+
+      int a = 1;     int b = 3;     float c = (float)1.0;     
+
+   System.out.println( "HelloWorld - Java Dynamic Class written by Rajib. More are to come...\n");     
+
+   printSomethingElse("this is wonderful");      
+
+  if(a==c){
+
+      System.out.println("a and c are same”);
+
+      }else{
+
+      System.out.println("They are not same”);
+
+      }     
+
+     return "hey wonderful!”; 
+ }
+
+  public void printSomethingElse(String st) {
+
+      System.out.println( "Here's something more to it. “);
+
+      System.out.println(st);  
+
+    }
+
+ }

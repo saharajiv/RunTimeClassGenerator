@@ -1,0 +1,11 @@
+int a= 1;
+int b = 1;
+int count = 0;
+while(count <=10){
+	print(a+"\t  "+b+"\t");
+	a = a+b;
+	b= a+b;
+	count= count+2;
+}
+
+

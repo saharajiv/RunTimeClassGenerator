@@ -1,0 +1,11 @@
+ 
+     int a = 1;
+     int b = 3;
+     float c = (float)1.0;
+     System.out.println( "HelloWorld - Java Dynamic Class written by Rajib. More are to come...\n");
+     if(a==c){
+     	System.out.println("a and c are same");
+     }else{
+     	System.out.println("They are not same");
+     }
+ 
